@@ -17,9 +17,9 @@ public partial class Student
 
     public string? Lastname { get; set; }
 
-    public DateOnly Birthday { get; set; }
+    public DateTime Birthday { get; set; }
 
-    public decimal Phone { get; set; }
+    public string Phone { get; set; } = null!;
 
     public int CodeGroup { get; set; }
 
